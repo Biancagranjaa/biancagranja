@@ -2,25 +2,24 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
-	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+        float BYGJ_a,BYGJ_b;
+        cout<<"ingrese BYGJ_a BYGJ_b:"; cin>>BYGJ_a>>BYGJ_b;
+        if(BYGJ_a>BYGJ_b)
+        float BYGJ_a,BYGJ_b;
+        cout<<"ingrese BYGJ_a BYGJ_b:"; cin>>BYGJ_a>>BYGJ_b;
+        if(BYGJ_a>BYGJ_b)
+        {
+          cout<<BYGJ_a<<" es mayor BYGJ_a "<<BYGJ_b<<endl;
+          cout<<BYGJ_a<<" es mayor BYGJ_a "<<BYGJ_b<<endl;
 
 
-	}else{
+        }else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
-
-
-	}
-
-	return 0;
+          cout<<BYGJ_b<<" es mayor BYGJ_a "<<BYGJ_a<<endl;
+          cout<<BYGJ_b<<" es mayor BYGJ_a "<<BYGJ_a<<endl;
 
 
+        }
+        return 0;
 
-
-
-
- }
+}
