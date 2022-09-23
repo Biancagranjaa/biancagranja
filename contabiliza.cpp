@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int BYGJ_i=0,BYGJ_l;
+	float BYGJ_x,BYGJ_s=0;
+	cout<<"ingrese el limite BYGJ_l="; cin>>BYGJ_l;
 	do{
+		
+	cout<<"ingrese el numero BYGJ_x="; cin>>BYGJ_x;
+	BYGJ_i=BYGJ_i+1;
+	BYGJ_s=BYGJ_s+BYGJ_x;
 
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
 
 
-
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(BYGJ_i<BYGJ_l);
+	cout<<"Se ingresaron "<<BYGJ_l<<" numeros "<< "que sumaron "<<BYGJ_s<<endl;
 	return 0;
 
 
